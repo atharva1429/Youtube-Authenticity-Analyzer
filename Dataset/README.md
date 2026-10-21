@@ -1,46 +1,70 @@
 # YouTube Authenticity Analyzer
 
-Premium full-stack application for detecting suspicious content using TF-IDF + LinearSVC, with rule-based explainability indicators.
-
-## Stack
-
-- **Frontend:** React, Tailwind CSS, Framer Motion, Recharts, Lucide Icons
-- **Backend:** FastAPI, SQLite, Session Authentication
-- **ML:** Existing `model.pkl` + `vectorizer.pkl` (unchanged)
-
-## Setup
-
-### Backend
-
-```bash
-cd Dataset
-pip install -r requirements.txt
-uvicorn backend.main:app --reload --host 127.0.0.1 --port 8000
-```
-
-### Frontend
-
-```bash
-cd Dataset/frontend
-npm install
-npm run dev
-```
-
-Open [http://localhost:5173](http://localhost:5173)
+An ML-powered web application that analyzes text and YouTube video transcripts to estimate content credibility.
 
 ## Features
 
-- Login / Register / Logout (session auth)
-- Premium dashboard with overview, analytics, and system status
-- Text Analysis with rule-based indicators
-- YouTube Analysis (transcript fetch + detection)
-- Interactive history with filters and detail modal
-- Suspicious content reports (print / PDF download)
-- Analytics charts and statistics
-- SQLite Analysis History
+- Text-based credibility analysis
+- YouTube video transcript analysis
+- Automatic speech transcription fallback for videos without captions
+- Credibility prediction with confidence score
+- Analysis history and dashboard
+- PDF analysis reports
+- User authentication
 
-## Notes
+## Tech Stack
 
-- Do not modify `model.pkl` or `vectorizer.pkl`
-- ML pipeline: `vectorizer.transform([text])` → `model.predict()` → 1 = Credible, else Suspicious
-- No confidence scores displayed — indicators are rule-based only
+**Frontend:** React, Vite, Tailwind CSS  
+**Backend:** Python, FastAPI  
+**Machine Learning:** Scikit-learn, TF-IDF  
+**Database:** SQLite  
+**YouTube Processing:** Transcript extraction, Whisper, yt-dlp
+
+## Project Structure
+
+    Dataset/
+    ├── backend/
+    ├── frontend/
+    ├── model_v4.pkl
+    ├── vectorizer_v4.pkl
+    ├── requirements.txt
+    └── README.md
+
+## Getting Started
+
+### 1. Clone the repository
+
+    git clone https://github.com/atharva1429/Youtube-Authenticity-Analyzer.git
+    cd Youtube-Authenticity-Analyzer/Dataset
+
+### 2. Set up Python
+
+    python -m venv venv
+
+Activate the environment on Windows:
+
+    venv\Scripts\activate
+
+Install backend dependencies:
+
+    pip install -r requirements.txt
+
+### 3. Start the backend
+
+Follow the backend entry point and configuration in the project source code.
+
+### 4. Start the frontend
+
+Open another terminal:
+
+    cd frontend
+    npm install
+    npm run dev
+
+## Important Note
+
+This project estimates content credibility using a machine learning model. Its predictions are not definitive proof that a claim is true or false. Results should be independently verified.
+
+## License
+
+MIT
