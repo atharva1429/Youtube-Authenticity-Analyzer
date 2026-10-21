@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+.env
+.env.*
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Frontend
+node_modules/
+dist/
+
+# Large datasets
+*.csv
+*.npy
+
+# Experimental files
+Dataset/experimental/
+Dataset/scratch/
+
+# Old models
+Dataset/model.pkl
+Dataset/model_adapted.pkl
+Dataset/model_bge.pkl
+Dataset/model_v2.pkl
+Dataset/model_v3.pkl
+Dataset/vectorizer.pkl
+Dataset/vectorizer_adapted.pkl
+Dataset/vectorizer_v2.pkl
+Dataset/vectorizer_v3.pkl
+
+# Archives
+*.zip

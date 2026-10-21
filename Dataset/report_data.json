@@ -1,0 +1,159 @@
+{
+    "raw_counts": {
+        "Local_Clickbait": 28907,
+        "ISOT": 26377,
+        "Local_Misinfo": 10407,
+        "LIAR": 9825,
+        "CoAID": 5100,
+        "HF_FakeNews": 1589,
+        "FakeHealth": 1503
+    },
+    "exact_duplicates_removed": 0,
+    "near_duplicates_removed": 703,
+    "final_counts": {
+        "Local_Clickbait": 28550,
+        "ISOT": 26288,
+        "Local_Misinfo": 10235,
+        "LIAR": 9780,
+        "CoAID": 5035,
+        "MLMA": 5000,
+        "HF_FakeNews": 1586,
+        "FakeHealth": 1502
+    },
+    "final_percentages": {
+        "Local_Clickbait": 0.32452032372465217,
+        "ISOT": 0.2988087660270983,
+        "Local_Misinfo": 0.11633854687642084,
+        "LIAR": 0.11116668182231518,
+        "CoAID": 0.05723151768664181,
+        "MLMA": 0.05683368191324907,
+        "HF_FakeNews": 0.018027643902882605,
+        "FakeHealth": 0.01707283804674002
+    },
+    "final_class_distribution": {
+        "CoAID": {
+            "0": 923,
+            "1": 4112
+        },
+        "FakeHealth": {
+            "0": 763,
+            "1": 739
+        },
+        "HF_FakeNews": {
+            "0": 813,
+            "1": 773
+        },
+        "ISOT": {
+            "0": 12572,
+            "1": 13716
+        },
+        "LIAR": {
+            "0": 5591,
+            "1": 4189
+        },
+        "Local_Clickbait": {
+            "0": 15023,
+            "1": 13527
+        },
+        "Local_Misinfo": {
+            "0": 5746,
+            "1": 4489
+        },
+        "MLMA": {
+            "0": 0,
+            "1": 5000
+        }
+    },
+    "vocabulary_overlap": {
+        "Local_Clickbait": {
+            "Local_Clickbait": 1.0,
+            "ISOT": 0.30463144161774297,
+            "LIAR": 0.2445550715619166,
+            "Local_Misinfo": 0.09649122807017543,
+            "HF_FakeNews": 0.30123617436564737,
+            "FakeHealth": 0.14942528735632185,
+            "CoAID": 0.19904076738609114,
+            "MLMA": 0.07584722969338353
+        },
+        "ISOT": {
+            "Local_Clickbait": 0.30463144161774297,
+            "ISOT": 1.0,
+            "LIAR": 0.41743444365698085,
+            "Local_Misinfo": 0.12803158488437677,
+            "HF_FakeNews": 0.8433179723502304,
+            "FakeHealth": 0.2143290831815422,
+            "CoAID": 0.25,
+            "MLMA": 0.07874865156418555
+        },
+        "LIAR": {
+            "Local_Clickbait": 0.2445550715619166,
+            "ISOT": 0.41743444365698085,
+            "LIAR": 1.0,
+            "Local_Misinfo": 0.1267605633802817,
+            "HF_FakeNews": 0.4094432699083862,
+            "FakeHealth": 0.18413262285375961,
+            "CoAID": 0.23533045089561458,
+            "MLMA": 0.06666666666666667
+        },
+        "Local_Misinfo": {
+            "Local_Clickbait": 0.09649122807017543,
+            "ISOT": 0.12803158488437677,
+            "LIAR": 0.1267605633802817,
+            "Local_Misinfo": 1.0,
+            "HF_FakeNews": 0.13058224985867722,
+            "FakeHealth": 0.13378684807256236,
+            "CoAID": 0.1402508551881414,
+            "MLMA": 0.021972406745017884
+        },
+        "HF_FakeNews": {
+            "Local_Clickbait": 0.30123617436564737,
+            "ISOT": 0.8433179723502304,
+            "LIAR": 0.4094432699083862,
+            "Local_Misinfo": 0.13058224985867722,
+            "HF_FakeNews": 1.0,
+            "FakeHealth": 0.21802679658952498,
+            "CoAID": 0.24378109452736318,
+            "MLMA": 0.07874865156418555
+        },
+        "FakeHealth": {
+            "Local_Clickbait": 0.14942528735632185,
+            "ISOT": 0.2143290831815422,
+            "LIAR": 0.18413262285375961,
+            "Local_Misinfo": 0.13378684807256236,
+            "HF_FakeNews": 0.21802679658952498,
+            "FakeHealth": 1.0,
+            "CoAID": 0.2682308180088776,
+            "MLMA": 0.047668936616029334
+        },
+        "CoAID": {
+            "Local_Clickbait": 0.19904076738609114,
+            "ISOT": 0.25,
+            "LIAR": 0.23533045089561458,
+            "Local_Misinfo": 0.1402508551881414,
+            "HF_FakeNews": 0.24378109452736318,
+            "FakeHealth": 0.2682308180088776,
+            "CoAID": 1.0,
+            "MLMA": 0.04657247514390372
+        },
+        "MLMA": {
+            "Local_Clickbait": 0.07584722969338353,
+            "ISOT": 0.07874865156418555,
+            "LIAR": 0.06666666666666667,
+            "Local_Misinfo": 0.021972406745017884,
+            "HF_FakeNews": 0.07874865156418555,
+            "FakeHealth": 0.047668936616029334,
+            "CoAID": 0.04657247514390372,
+            "MLMA": 1.0
+        }
+    },
+    "political_bias": {
+        "Local_Clickbait": 0.026795096322241682,
+        "ISOT": 2.0870739500912965,
+        "LIAR": 0.281799591002045,
+        "Local_Misinfo": 0.06956521739130435,
+        "HF_FakeNews": 2.1116015132408577,
+        "FakeHealth": 0.019307589880159785,
+        "CoAID": 0.0506454816285998,
+        "MLMA": 0.0102
+    }
+}

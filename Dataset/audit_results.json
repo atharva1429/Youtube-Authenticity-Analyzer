@@ -1,0 +1,152 @@
+{
+  "True.csv": {
+    "rows": 21417,
+    "columns": [
+      "title",
+      "text",
+      "subject",
+      "date"
+    ],
+    "label_distribution": {}
+  },
+  "Fake.csv": {
+    "rows": 23481,
+    "columns": [
+      "title",
+      "text",
+      "subject",
+      "date"
+    ],
+    "label_distribution": {}
+  },
+  "clickbait_cleaned.csv": {
+    "rows": 32000,
+    "columns": [
+      "text",
+      "label"
+    ],
+    "label_distribution": {
+      "1": 16001,
+      "0": 15999
+    }
+  },
+  "misinfo_cleaned.csv": {
+    "rows": 10710,
+    "columns": [
+      "text",
+      "label"
+    ],
+    "label_distribution": {
+      "0.0": 5766,
+      "1.0": 4944
+    }
+  },
+  "fake_news_cleaned.csv": {
+    "rows": 44898,
+    "columns": [
+      "text",
+      "label"
+    ],
+    "label_distribution": {
+      "0": 23481,
+      "1": 21417
+    }
+  },
+  "fake_reviews_cleaned.csv": {
+    "rows": 40432,
+    "columns": [
+      "text",
+      "label"
+    ],
+    "label_distribution": {
+      "0": 20216,
+      "1": 20216
+    }
+  },
+  "master_dataset.csv": {
+    "rows": 128040,
+    "columns": [
+      "text",
+      "label"
+    ],
+    "label_distribution": {
+      "0.0": 65462,
+      "1.0": 62578
+    }
+  },
+  "master_dataset_final.csv": {
+    "rows": 99380,
+    "columns": [
+      "text",
+      "label"
+    ],
+    "label_distribution": {
+      "1": 52359,
+      "0": 47021
+    }
+  },
+  "unified_corpus.csv": {
+    "rows": 83708,
+    "columns": [
+      "text",
+      "label",
+      "source",
+      "domain"
+    ],
+    "label_distribution": {
+      "0": 41854,
+      "1": 41854
+    }
+  },
+  "unified_corpus_cleaned.csv": {
+    "rows": 87976,
+    "columns": [
+      "text",
+      "label",
+      "source",
+      "domain"
+    ],
+    "label_distribution": {
+      "1": 46545,
+      "0": 41431
+    }
+  },
+  "unified_corpus_final.csv": {
+    "rows": 82976,
+    "columns": [
+      "text",
+      "label",
+      "source",
+      "domain"
+    ],
+    "label_distribution": {
+      "1": 41545,
+      "0": 41431
+    }
+  },
+  "youtube_dataset.csv": {
+    "rows": 600,
+    "columns": [
+      "text",
+      "label",
+      "source",
+      "domain"
+    ],
+    "label_distribution": {
+      "1": 600
+    }
+  },
+  "youtube_adapted_corpus.csv": {
+    "rows": 83576,
+    "columns": [
+      "text",
+      "label",
+      "source",
+      "domain"
+    ],
+    "label_distribution": {
+      "1": 42145,
+      "0": 41431
+    }
+  }
+}

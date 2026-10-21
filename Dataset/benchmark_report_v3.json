@@ -1,0 +1,31 @@
+{
+    "models": {
+        "Logistic Regression": {
+            "Accuracy": 0.8969,
+            "Precision": 0.8901,
+            "Recall": 0.9098,
+            "F1": 0.898,
+            "ROC-AUC": 0.9673
+        }
+    },
+    "champion_model": "Logistic Regression",
+    "champion_f1": 0.898,
+    "dataset_stats": {
+        "total_rows": 60206,
+        "label_0_count": 30103,
+        "label_1_count": 30103,
+        "label_convention": "0=Suspicious, 1=Credible"
+    },
+    "sanity_check": {
+        "Photosynthesis is the process by which plants convert sunlight into glucose.": "PASS",
+        "The Earth revolves around the Sun.": "PASS",
+        "Neural networks are machine learning models.": "PASS",
+        "Python is a programming language.": "PASS",
+        "Water boils at 100 degrees Celsius at sea level.": "PASS",
+        "The Earth is flat and NASA hides the truth.": "PASS",
+        "Vaccines contain government tracking microchips.": "PASS",
+        "Drinking bleach cures all diseases.": "PASS",
+        "The moon landing was filmed in a studio.": "PASS",
+        "Scientists are hiding free energy technology.": "PASS"
+    }
+}

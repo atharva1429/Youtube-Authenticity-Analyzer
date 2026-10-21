@@ -1,0 +1,93 @@
+{
+    "models": {
+        "Logistic Regression": {
+            "Accuracy": 0.854,
+            "Precision": 0.8569,
+            "Recall": 0.85,
+            "F1": 0.8535,
+            "ROC-AUC": 0.9419,
+            "Confusion_Matrix": [
+                [
+                    14047,
+                    2324
+                ],
+                [
+                    2455,
+                    13916
+                ]
+            ],
+            "Avg_Fold_Time_Seconds": 6.7
+        },
+        "Calibrated Linear SVC": {
+            "Accuracy": 0.8508,
+            "Precision": 0.8507,
+            "Recall": 0.8511,
+            "F1": 0.8509,
+            "ROC-AUC": 0.9383,
+            "Confusion_Matrix": [
+                [
+                    13925,
+                    2446
+                ],
+                [
+                    2438,
+                    13933
+                ]
+            ],
+            "Avg_Fold_Time_Seconds": 6.7
+        },
+        "XGBoost": {
+            "Accuracy": 0.7981,
+            "Precision": 0.9165,
+            "Recall": 0.6559,
+            "F1": 0.7646,
+            "ROC-AUC": 0.9129,
+            "Confusion_Matrix": [
+                [
+                    15393,
+                    978
+                ],
+                [
+                    5633,
+                    10738
+                ]
+            ],
+            "Avg_Fold_Time_Seconds": 51.0
+        }
+    },
+    "champion_model": "Logistic Regression",
+    "champion_f1": 0.8535,
+    "dataset_stats": {
+        "total_rows": 32742,
+        "label_0_count": 16371,
+        "label_1_count": 16371,
+        "sources": {
+            "Local_Misinfo": 7364,
+            "LIAR": 6988,
+            "ISOT_Fake": 3500,
+            "CoAID": 3486,
+            "HF_FakeNews": 3407,
+            "ISOT_Real": 3322,
+            "Local_Clickbait": 2916,
+            "FakeHealth": 993,
+            "3Blue1Brown_Corpus": 244,
+            "Augmented_Conspiracy": 95,
+            "Synthetic_Suspicious": 56,
+            "Augmented_Factual": 56,
+            "Synthetic_Credible": 51,
+            "Domain_Science_Edu": 42,
+            "Augmented_Science": 39,
+            "Synthetic_Misinfo": 30,
+            "Core_Science_Fact": 28,
+            "Synthetic_Facts": 26,
+            "Domain_Conspiracy": 25,
+            "Core_Conspiracy_Claim": 20,
+            "Veritasium_Corpus": 17,
+            "YouTube_Experimental": 16,
+            "TED_Corpus": 13,
+            "Kurzgesagt_Corpus": 6,
+            "YouTube_Conspiracy_Curated": 2
+        },
+        "label_convention": "0=Suspicious, 1=Credible"
+    }
+}
