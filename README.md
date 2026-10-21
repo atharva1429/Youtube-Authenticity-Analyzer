@@ -71,8 +71,7 @@ MIT
 
 ## Screenshots
 
-### Analytics Dashboard
-![Analytics Dashboard](Dataset/screenshot/Analyticdashboard.png)
+
 
 ### Main Dashboard
 ![Dashboard](Dataset/screenshot/dashboard.png)
@@ -88,3 +87,6 @@ MIT
 
 ### YouTube Analysis — Example 2
 ![YouTube Analysis 2](Dataset/screenshot/ytanalysis2.png)
+
+### Analytics Dashboard
+![Analytics Dashboard](Dataset/screenshot/Analyticdashboard.png)
