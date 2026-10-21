@@ -68,3 +68,23 @@ This project estimates content credibility using a machine learning model. Its p
 ## License
 
 MIT
+
+## Screenshots
+
+### Analytics Dashboard
+![Analytics Dashboard](Dataset/screenshot/Analyticdashboard.png)
+
+### Main Dashboard
+![Dashboard](Dataset/screenshot/dashboard.png)
+
+### Text Analysis — Example 1
+![Text Analysis 1](Dataset/screenshot/textanalysis1.png)
+
+### Text Analysis — Example 2
+![Text Analysis 2](Dataset/screenshot/textanalysis2.png)
+
+### YouTube Analysis — Example 1
+![YouTube Analysis 1](Dataset/screenshot/ytanalysis1.png)
+
+### YouTube Analysis — Example 2
+![YouTube Analysis 2](Dataset/screenshot/ytanalysis2.png)
